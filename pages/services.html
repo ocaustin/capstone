@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Night Life Construction</title>
+    <link rel="stylesheet" type="text/css" href="../style/service.css" />
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script src="../scripts/services.js"></script>
+    <script src="../scripts/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="../images/logo.png"
+          alt="Night Life Construction logo"
+          height="60"
+          width="60"
+        />
+      </div>
+      <nav>
+        <ul class="nav-buttons">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="quote.html">Request Quote</a></li>
+          <li><a href="saveForLater.html">Saved Projects</a></li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="../index.html">Home</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="#">Services</a>
+          <a href="quote.html">Request Quote</a>
+          <a href="saveForLater.html">Saved Projects</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Social media navigation -->
+    <nav class="social-media-navigator">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/nightlifeconstruction"
+            ><img src="../images/facebook.png" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/nightlifeconstruction"
+            ><img src="../images/twitter.png" alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/nightlifeconstruction"
+            ><img src="../images/linkedin.png" alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section class="left-section">
+        <h1>Our Services</h1>
+        <p>
+          We understand that building and construction projects can be stressful
+          and overwhelming, which is why we work closely with our clients to
+          make sure their vision is realized.
+        </p>
+        <p>
+          We believe that communication is key to a successful project, and we
+          make sure to keep our clients informed every step of the way.
+        </p>
+      </section>
+
+      <section class="right-section">
+        <div class="right-section-row">
+          <div class="right-section-div">
+            <h3>Commercial Construction</h3>
+            <p>
+              Our commercial construction services include design, planning and
+              construction, from small commercial projects to large-scale
+              developments. Our team has the experience and expertise to ensure
+              that your commercial project is delivered on time, within budget,
+              and to the highest standards.
+            </p>
+          </div>
+          <div class="right-section-div">
+            <h3>Builds</h3>
+            <p>
+              We offer comprehensive new build services, including design,
+              planning and construction. Our team will work with you to bring
+              your vision to life, taking care of every detail, from obtaining
+              the necessary permits to handing over the keys to your new
+              property.
+            </p>
+          </div>
+        </div>
+        <div class="right-section-row">
+          <div class="right-section-div">
+            <h3>Remodeling &amp; Renovation</h3>
+            <p>
+              Whether you're looking to update a single room or renovate your
+              entire property, we can help. Our team will work closely with you
+              to understand your goals, ensuring that your remodelling or
+              renovation project exceeds your expectations.
+            </p>
+          </div>
+          <div class="right-section-div">
+            <h3>Room Extension</h3>
+            <p>
+              Need more space? We offer room extension services, from design to
+              construction. Our team will work with you to create the perfect
+              extension that complements your existing property and meets your
+              needs.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="testimonial-section">
+      <h2>Testimonials</h2>
+      <div id="testimonialList"></div>
+
+      <h3 class="testimonial-h3">Add Your Testimonial</h3>
+      <form id="testimonialForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="testimonial">Testimonial:</label>
+        <textarea id="testimonial" name="testimonial" required></textarea>
+
+        <button class="testimonial-form-button" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <nav>
+        <ul class="nav-foot">
+          <li>
+            <marquee behavior="left">Night Life Construction © 2024</marquee>
+          </li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Testimonies</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
